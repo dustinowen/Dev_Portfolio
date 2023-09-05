@@ -1,4 +1,4 @@
-import Typed from "react-typed";
+// import Typed from "react-typed";
 import About from "../assets/imgs/about.png";
 import Skills from "../assets/imgs/skills.png";
 import Exp from "../assets/imgs/exp.png";
@@ -10,8 +10,8 @@ export default function Header(props) {
     <header>
       <div className="wrapper">
         <h1>
-          Hello, my name is Dustin —<br />
-          <Typed
+          Hello, my name is Dustin — <br/>I am a Full-Stack Developer!<br />
+          {/* <Typed
             strings={[
               "I am a JavaScript programmer...",
               "I am an Express.js novice...",
@@ -21,7 +21,7 @@ export default function Header(props) {
             typeSpeed={75}
             backSpeed={50}
             backDelay={100}
-          />
+          /> */}
         </h1>
 
         <div className="buttons">

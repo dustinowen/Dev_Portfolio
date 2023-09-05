@@ -1,8 +1,5 @@
 import "./about.css";
 import Dustin from "../assets/imgs/Dustin.png";
-import Skills from "../assets/imgs/skills.png";
-import Exp from "../assets/imgs/exp.png";
-import Connect from "../assets/imgs/connect.png";
 import { useEffect, useState } from "react";
 
 export default function About(props) {

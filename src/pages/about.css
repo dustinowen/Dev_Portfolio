@@ -16,16 +16,19 @@ section {
   background-color: #e8cbae;
 }
 
-.flex-container > h2 {
-  font-size: 4vmin;
+.flex-container > div > h2 {
+  font-size: xx-large;
   font-weight: bold;
   display: inline;
 }
 
 .about-img {
-  height: 15vmin;
+  height: 10vmin;
   border-radius: 50%;
-  display: inline-block;
-  margin-bottom: 3vh;
+  display: inline;
   border: 3px solid black;
+  vertical-align: middle;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
 }

@@ -10,7 +10,7 @@ export default function Header(props) {
     <header>
       <div className="wrapper">
         <h1>
-          Hello, my name is Dustin — <br/>I am a Full-Stack Developer!<br />
+          Hello, my name is Dustin — I am a Full-Stack Developer!<br />
           {/* <Typed
             strings={[
               "I am a JavaScript programmer...",

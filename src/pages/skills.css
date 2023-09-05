@@ -1,0 +1,30 @@
+.skills-container {
+  height: 100vh;
+}
+
+.skills-container > h1 {
+  padding-top: 5vmax;
+  text-align: center;
+  font-weight: 900;
+  font-size: xx-large;
+  text-decoration: underline;
+}
+
+.img-container {
+  margin-top: 2vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-column-gap: 1vw;
+  grid-row-gap: 5vh;
+}
+
+.img-container > img {
+  height: 30vh;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #346981;
+  border: 8px solid #d9b694;
+  border-radius: 20px;
+}

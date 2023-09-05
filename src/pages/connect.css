@@ -1,0 +1,25 @@
+.footer {
+  height: 50vmax;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.footer > img {
+  margin-right: 20px;
+}
+
+.footer > div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 3vw;
+  align-items: center;
+  padding: 1rem;
+}
+
+.footer > a {
+  padding: 1rem;
+}
